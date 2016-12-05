@@ -1,3 +1,102 @@
+
+
 body {
-  background-color: blue;
+  background-color: lightblue;
+  font-family: monospace;
+  color: #1e1e1d;
+  max-width: 960px;
+  min-width: 599px;
 }
+a {
+  color: white;
+}
+
+a:visited {
+  color: darkblue;
+}
+
+#page-wrap {
+  margin: 0 auto;
+  margin-top: 5%;
+  position: relative;
+  
+
+}
+
+#intro {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+  position: fixed;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-right: 3px dotted;
+  background-image: url(images/wave-07.jpg);
+
+
+}
+
+main {
+  width: 40%;
+  display: block;
+  padding-left: 30%;
+  position: relative;
+}
+
+section {
+  width: 100%;
+}
+
+.section h2{
+font-size: 3em;
+
+}
+
+#image {
+  width: 100%;
+}
+
+.table {
+  margin: 0 auto;
+  border-width: 1em;
+  width: 100%;
+}
+
+table th {
+  background-color: #1e1e1d;
+  color: white;
+  font-size: 2em;
+
+}
+
+#form {
+  padding: 5%;
+  font-family: sans-serif;
+  background-color: #1e1e1d;
+  color: white;
+
+}
+
+.footer {
+  border-top: 3px dotted;
+  margin-top: 5%;
+}
+
+
+@media screen and (min-width: 992px) {
+  #intro {
+    width: 200px
+    
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #intro {
+    min-width: 200px;
+  }
+
+  main {
+    padding-left: 40%
+  }
+}
+
